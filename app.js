@@ -76,11 +76,9 @@ console.log(reverseArray(["A", "B", "C"]));
 
 const checkUniqueness=(arr)=>{
   let set =new Set(arr)
-  if(set.size == arr.length){
-      return true
-  }else{
-      return false
-  }
+
+  return set.size == arr.length ? true:false;
+      
 }
 
 const arrOne = [1, 4, 6, 2, 1];
